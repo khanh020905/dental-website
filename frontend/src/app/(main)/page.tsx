@@ -84,11 +84,11 @@ export default function Home() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.8, type: "spring" }}
               className="flex flex-row md:flex-col items-center gap-4 md:gap-0 bg-white/20 backdrop-blur-md border border-white/30 p-2 md:p-3 rounded-2xl shadow-2xl mt-8 md:mt-0 hover:scale-105 transition-transform cursor-crosshair group tooltip-container w-max self-start md:self-auto"
-              title="Khắc phục: Nếu quét QR bằng điện thoại trùng WiFi nhà, hãy thay 'localhost' bằng địa chỉ IP IPv4 của máy tính (vd: 192.168.1.15)"
+              title="Mã QR đã kết nối Trực tuyến - Thử Quét bằng Zalo hoặc Camera điện thoại để xem chứng chỉ!"
             >
               <div className="bg-white p-1 md:p-2 rounded-xl mb-0 md:mb-2 shrink-0">
                 <img 
-                  src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=http://localhost:3000/verify/vqd-2026-x19" 
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://dental-website-sigma-two.vercel.app/verify/vqd-2026-x19" 
                   alt="Scan Demo Certificate" 
                   className="w-12 h-12 md:w-24 md:h-24 sm:w-20 sm:h-20 object-contain"
                 />
